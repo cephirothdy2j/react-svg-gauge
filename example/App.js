@@ -46,10 +46,10 @@ export default class App extends Component {
 				</div>
 				<div className="row">
 					<div className="col-sm-6">
-						<Gauge value={this.state.value} width={400} height={320} color={colorHex} label="This is a big one" />
+						<Gauge value={this.state.value} size={400} color={colorHex} label="This is a big one" />
 					</div>
 					<div className="col-sm-6">
-						<Gauge value={this.state.value} width={200} height={160} label="This is a smaller one" color="#123456" />
+						<Gauge value={this.state.value} size={200} label="This is a smaller one" color="#123456" />
 					</div>
 				</div>
 				<div className="row">
