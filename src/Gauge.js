@@ -24,8 +24,8 @@ export default class Gauge extends Component {
 		var gws = 1;
 
 		var alpha = (1 - (value - this.props.min) / (this.props.max - this.props.min)) * Math.PI;
-		var Ro = this.props.width / 2 - this.props.width / 10;
-		var Ri = Ro - this.props.width / 5;
+		var Ro = this.props.width / 2;
+		var Ri = Ro - this.props.width / 4;
 
 		var Cx = this.props.width / 2 + dx;
 		var Cy = this.props.height / 1.25 + dy;
