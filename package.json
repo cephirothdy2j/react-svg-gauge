@@ -46,5 +46,9 @@
   "bugs": {
     "url": "https://github.com/Reggino/react-svg-gauge/issues"
   },
-  "homepage": "https://github.com/Reggino/react-svg-gauge#readme"
+  "homepage": "https://github.com/Reggino/react-svg-gauge#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
 }
